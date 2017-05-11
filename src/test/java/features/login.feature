@@ -6,9 +6,9 @@ Feature: Test facebook smoke scenario
     Then User should be able to login successfully
     Then applicatioin should be closed
     Examples:
-      | UserName | Password     |
-      | svarunbe | jothikumarbe |
-      | dummy    | dummy        |
+      | UserName | Password |
+      | svarunbe | welcome  |
+#      | dummy    | dummy        |
 
   Scenario Outline: Test Login with valid credentials again
     When application should be reopened again
