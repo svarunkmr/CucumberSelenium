@@ -1,0 +1,294 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2145110,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTests()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Test Login with valid credentials",
+        "description": "",
+        "id": "test-facebook-smoke-scenario;test-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 259158,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTests()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10408310675,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Chrome and start application",
+            "match": {
+              "location": "login.open_Chrome_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 812150233,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid credentials \"svarunbe\" and \"jothikumarbe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "svarunbe",
+                  "offset": 27
+                },
+                {
+                  "val": "jothikumarbe",
+                  "offset": 42
+                }
+              ],
+              "location": "login.iEnterValidCredentialsAnd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9405591655,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to login successfully",
+            "match": {
+              "location": "login.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1732071272,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "applicatioin should be closed",
+            "match": {
+              "location": "login.applicatioin_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 417818,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTests()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Test Login with valid credentials",
+        "description": "",
+        "id": "test-facebook-smoke-scenario;test-login-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 136421,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTests()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6433792833,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Chrome and start application",
+            "match": {
+              "location": "login.open_Chrome_and_start_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 607549281,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter valid credentials \"dummy\" and \"dummy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dummy",
+                  "offset": 27
+                },
+                {
+                  "val": "dummy",
+                  "offset": 39
+                }
+              ],
+              "location": "login.iEnterValidCredentialsAnd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2316392982,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to login successfully",
+            "match": {
+              "location": "login.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1104294410,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "applicatioin should be closed",
+            "match": {
+              "location": "login.applicatioin_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 978471,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTests()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Test Login with valid credentials again",
+        "description": "",
+        "id": "test-facebook-smoke-scenario;test-login-with-valid-credentials-again;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 147113,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTests()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6249046974,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "application should be reopened again",
+            "match": {
+              "location": "login.applicationShouldBeReopenedAgain()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 694386022,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter valid credentials again \"dummy1\" and \"dummy1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dummy1",
+                  "offset": 33
+                },
+                {
+                  "val": "dummy1",
+                  "offset": 46
+                }
+              ],
+              "location": "login.iEnterValidCredentialsAgainAnd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2822280487,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should be able to login successfully again",
+            "match": {
+              "location": "login.userShouldBeAbleToLoginSuccessfullyAgain()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1108921621,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "applicatioin should be closed again",
+            "match": {
+              "location": "login.applicatioinShouldBeClosedAgain()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test facebook smoke scenario",
+    "description": "",
+    "id": "test-facebook-smoke-scenario",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/login.feature"
+  }
+]
