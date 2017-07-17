@@ -31,7 +31,7 @@ public class login extends baseUtil
     @Given("^Open Chrome and start application$")
     public void open_Chrome_and_start_application() throws Throwable {
 
-        setProperty("webdriver.chrome.driver", "C:\\Users\\Arunkumar\\Downloads\\chromedriver_win32\\chromedriver.exe");
+        //setProperty("webdriver.chrome.driver", "C:\\Users\\Arunkumar\\Downloads\\chromedriver_win32\\chromedriver.exe");
         dr = new ChromeDriver();
         dr.manage().window().maximize();
         dr.get("http://www.facebook.com");
@@ -87,7 +87,8 @@ public class login extends baseUtil
     @When("^application should be reopened again$")
     public void applicationShouldBeReopenedAgain() throws Throwable {
 
-        setProperty("webdriver.chrome.driver", "C:\\Users\\Arunkumar\\Downloads\\chromedriver_win32\\chromedriver.exe");
+        //setProperty("webdriver.chrome.driver", "C:\\Users\\Arunkumar\\Downloads\\chromedriver_win32\\chromedriver.exe");
+        //setProperty("webdriver.chrome.driver", "/usr/local/share/chromedriver");
         dr = new ChromeDriver();
         dr.manage().window().maximize();
         dr.get("http://www.facebook.com");
